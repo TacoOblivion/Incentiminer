@@ -99,8 +99,14 @@ execute at @a[scores={IM.DarkOakLeaves=1..}] run scoreboard players operation @p
 execute at @a[scores={IM.Grass=1..}] run scoreboard players add @p IM.PartialPoints 3
 execute at @a[scores={IM.Grass=1..}] run scoreboard players operation @p IM.Grass -= #1 IM.PartialPoints
 
-#execute at @a[scores={IM.TallGrass=1..}] run scoreboard players add @p IM.PartialPoints 3
-#execute at @a[scores={IM.TallGrass=1..}] run scoreboard players operation @p IM.TallGrass -= #1 IM.PartialPoints
+execute at @a[scores={IM.TallGrass=1..}] run scoreboard players add @p IM.PartialPoints 3
+execute at @a[scores={IM.TallGrass=1..}] run scoreboard players operation @p IM.TallGrass -= #1 IM.PartialPoints
+
+execute at @a[scores={IM.Fern=1..}] run scoreboard players add @p IM.PartialPoints 3
+execute at @a[scores={IM.Fern=1..}] run scoreboard players operation @p IM.Fern -= #1 IM.PartialPoints
+
+execute at @a[scores={IM.LargeFern=1..}] run scoreboard players add @p IM.PartialPoints 3
+execute at @a[scores={IM.LargeFern=1..}] run scoreboard players operation @p IM.LargeFern -= #1 IM.PartialPoints
 
 ###############################################################################
 # Give experience based on points

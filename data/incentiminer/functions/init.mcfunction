@@ -50,5 +50,6 @@ scoreboard objectives add IM.DarkOakLeaves minecraft.mined:minecraft.dark_oak_le
 
 # Worth 1/20 point
 scoreboard objectives add IM.Grass minecraft.mined:minecraft.grass
-# Tall grass is not detected as being mined, hence why I've commented it out
-#scoreboard objectives add IM.TallGrass minecraft.mined:minecraft.tall_grass
+scoreboard objectives add IM.TallGrass minecraft.mined:minecraft.tall_grass
+scoreboard objectives add IM.Fern minecraft.mined:minecraft.fern
+scoreboard objectives add IM.LargeFern minecraft.mined:minecraft.large_fern
